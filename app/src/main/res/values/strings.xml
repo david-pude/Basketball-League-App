@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Basketball League</string>
+    <string name="Venue">Venue</string>
+    <string name="team_location">team location</string>
+</resources>

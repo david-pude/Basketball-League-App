@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:background="@drawable/b2"
+    android:layout_height="match_parent"
+    tools:context=".venue">
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/Venue"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/cardview_light_background"
+        android:layout_height="match_parent"
+        android:layout_marginTop="280dp"
+        android:layout_marginBottom="90dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="#E0D2D7"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="117dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:srcCompat="@drawable/add"
+        app:tint="@color/black"/>
+
+</RelativeLayout>
